@@ -6,3 +6,5 @@ EXPLANATION
 Take the string received and, since we don't care about its formatting, only whether it's a palindrome or not when you actually *read the string vocally*, make it all lowercase, remove the spaces, and remove non-alphanumeric characters.
 
 Then, take that string and compare it to the same string reversed. Is it the same? If it is, output true, else, output false.
+
+UPDATE 15/10/19: Refactored the program to remove usage of the reverse() method for strings
